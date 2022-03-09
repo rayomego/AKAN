@@ -42,3 +42,9 @@ function validation()
     }
 }
 
+//Formula function to determine day of birth
+function day(century, year, month, date)
+{
+    return ((((century/4)-2*century-1)+(5*year/4) + (26*(month+1)/10) + date)%7);
+}
+
