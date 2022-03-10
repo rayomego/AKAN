@@ -8,6 +8,7 @@
   body{
     background-image: url("image/istockphoto-1281227346-612x612.jpg");
     background-position: center;
+
     background-size: cover;
     background-color: rgb(131, 131, 131);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,5 +21,8 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .form-group{
+    text-align: center;
+  }
+  p{
     text-align: center;
   }
