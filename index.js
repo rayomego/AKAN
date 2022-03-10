@@ -10,6 +10,7 @@ let show1El = document.getElementById('display');
 
 
 
+
   let dateEl = new Date (document.getElementById('date').value);
   let finalEl = dateEl.getDay();
   let maleEl = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
